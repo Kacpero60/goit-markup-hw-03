@@ -1,3 +1,18 @@
+.klasadlaheadera {
+    border-bottom: 1px solid #e7e9fc
+}
+.kontener {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.klasanav {
+    display: flex;
+    align-items: center; 
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -6,7 +21,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 76px;
 }
 .logo link {
     text-decoration: none;
@@ -20,7 +36,10 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    text-decoration: none
+    text-decoration: none;
+    display: flex; 
+    gap: 40px;
+    padding: 24px 0;
 }
 .firstlink:focus {
     color: #404bbf;
