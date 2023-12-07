@@ -216,7 +216,8 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-
+    padding-bottom: 120px;
+    margin-bottom: 72px;
 }
 .sectionfour {
     color: #2e2f42;
@@ -225,9 +226,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .sectionfourcolor {
     background-color: #F4F4FD; 
+    padding: 120px 0;
 }
 .headersectionfour {
     font-weight: 500;
@@ -235,12 +238,15 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center; 
+    margin-bottom: 8px;
 }
 .plistfour {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color:#FFFFFF;
+    text-align: center;
 }
 .link {
     text-decoration: none
@@ -258,6 +264,8 @@ body {
 }
 .classli {
     background-color:#FFFFFF;
+    width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
 }
 .info {
     font-size: 16px;
@@ -274,4 +282,7 @@ body {
 .firstpoint {
     width: calc((100% - 72px) / 4); 
 
+}
+.fornames {
+    padding: 32px 0px;
 }
