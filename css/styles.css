@@ -298,3 +298,7 @@ body {
 .sectionpadding {
     padding-bottom: 120px
 }
+.display {
+    display:flex; 
+    flex-wrap: wrap;
+}
