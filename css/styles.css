@@ -7,6 +7,7 @@
 }
 .kontener {
     display: flex;
+    gap: 332px;
 }
 .container {
     width: 1158px;
@@ -223,7 +224,6 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 120px;
     margin-bottom: 72px;
 }
 .sectionfour {
@@ -259,7 +259,9 @@ body {
     text-decoration: none
 }
 .adressclass {
+    padding: 24px 0;
     font-style: normal;
+
 }
 .headerindex {
     font-weight: 500; 
