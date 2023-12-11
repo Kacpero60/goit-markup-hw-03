@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
 .klasadlaheadera {
     border-bottom: 1px solid #e7e9fc
 }
@@ -285,4 +289,10 @@ body {
 .firstpoint {
     width: calc((100% - 72px) / 4); 
 
+}
+.section {
+    padding: 120px 0;
+}
+.sectionpadding {
+    padding-bottom: 120px
 }
