@@ -58,7 +58,8 @@
     list-style: none;
     display: flex;
     gap: 24px;
-
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .link-one link  {
     font-weight: 500;
@@ -76,8 +77,11 @@
 }
 .list {
     font-style: normal
+
 }
 .firstsectionportfolio {
+    padding-top:96px; 
+    padding-bottom: 120px;
 }
 .headerone {
     font-size: 56px;
@@ -112,14 +116,20 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     background-color:#F4F4FD ;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border: 1px solid transparent;
+    border-radius: 4px; 
 }
 .przycisk:hover {
     background-color: #404BBF;
     color:#FFFFFF;
+    border: 1px solid transparent;
 }
 .przycisk:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent
 }
 .headertwo {
     font-weight: 500;
@@ -256,7 +266,8 @@ body {
     text-align: center;
 }
 .link {
-    text-decoration: none
+    text-decoration: none;
+    width: calc((100% - 48px) / 3);
 }
 .adressclass {
     padding: 24px 0;
@@ -301,6 +312,7 @@ body {
 .display {
     display:flex; 
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 .last {
     width: calc((100% - 48px) / 3);
@@ -308,5 +320,5 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    
+
 }
