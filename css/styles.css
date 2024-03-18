@@ -61,9 +61,10 @@ img {
 .list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    
+    row-gap: 48px;
 }
 .menu {
     gap: 40px;
@@ -314,7 +315,7 @@ body {
     padding: 120px 0;
 }
 .sectionpadding {
-    padding-bottom: 120px
+    padding-bottom: 120px 0;
 }
 .display {
     display:flex; 
@@ -322,8 +323,8 @@ body {
     row-gap: 48px;
 }
 .lasss {
-    padding: 32px 0px;
-    
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
 }
 .visually-hidden {
     position: absolute;
@@ -339,6 +340,8 @@ body {
 }
 .liiclass {
     width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px; 
+
 }
 .next {
     margin-bottom: 72px;
