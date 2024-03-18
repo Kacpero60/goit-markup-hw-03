@@ -59,10 +59,9 @@ img {
     color: #404bbf;
 }
 .list {
-    list-style: none;
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+    flex-wrap: wrap;
     justify-content: center;
     row-gap: 48px;
 }
