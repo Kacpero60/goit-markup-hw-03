@@ -59,6 +59,7 @@ img {
     color: #404bbf;
 }
 .list {
+    list-style-type: none;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
